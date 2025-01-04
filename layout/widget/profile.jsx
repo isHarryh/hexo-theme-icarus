@@ -51,7 +51,7 @@ class Profile extends Component {
                         <div>
                             <p class="heading">{counter.post.title}</p>
                             <a href={counter.post.url}>
-                                <p class="title">{counter.post.count}</p>
+                                <p class="title is-size-4">{counter.post.count}</p>
                             </a>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ class Profile extends Component {
                         <div>
                             <p class="heading">{counter.category.title}</p>
                             <a href={counter.category.url}>
-                                <p class="title">{counter.category.count}</p>
+                                <p class="title is-size-4">{counter.category.count}</p>
                             </a>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ class Profile extends Component {
                         <div>
                             <p class="heading">{counter.tag.title}</p>
                             <a href={counter.tag.url}>
-                                <p class="title">{counter.tag.count}</p>
+                                <p class="title is-size-4">{counter.tag.count}</p>
                             </a>
                         </div>
                     </div>
